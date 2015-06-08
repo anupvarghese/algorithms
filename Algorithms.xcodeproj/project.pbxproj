@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9E0A130C1B2452E4005B0F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A130B1B2452E4005B0F87 /* main.cpp */; };
-		9E0A13141B245356005B0F87 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A13131B245356005B0F87 /* Graph.cpp */; };
+		9E0A13141B245356005B0F87 /* BfsAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A13131B245356005B0F87 /* BfsAlgorithm.cpp */; };
+		9E0A13311B2566F7005B0F87 /* DfsAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A132F1B2566F7005B0F87 /* DfsAlgorithm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9E0A13081B2452E4005B0F87 /* BfsAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BfsAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E0A130B1B2452E4005B0F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9E0A13121B245334005B0F87 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
-		9E0A13131B245356005B0F87 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		9E0A13081B2452E4005B0F87 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A130B1B2452E4005B0F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = BfsAlgorithm/main.cpp; sourceTree = "<group>"; };
+		9E0A13121B245334005B0F87 /* BfsAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BfsAlgorithm.h; sourceTree = "<group>"; };
+		9E0A13131B245356005B0F87 /* BfsAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BfsAlgorithm.cpp; sourceTree = "<group>"; };
+		9E0A132F1B2566F7005B0F87 /* DfsAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DfsAlgorithm.cpp; path = DfsAlgorithm/DfsAlgorithm.cpp; sourceTree = "<group>"; };
+		9E0A13301B2566F7005B0F87 /* DfsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DfsAlgorithm.h; path = DfsAlgorithm/DfsAlgorithm.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		9E0A12FF1B2452E4005B0F87 = {
 			isa = PBXGroup;
 			children = (
+				9E0A13321B25683A005B0F87 /* Main */,
+				9E0A132E1B2566C9005B0F87 /* DfsAlgorithm */,
 				9E0A130A1B2452E4005B0F87 /* BfsAlgorithm */,
 				9E0A13091B2452E4005B0F87 /* Products */,
 			);
@@ -52,7 +57,7 @@
 		9E0A13091B2452E4005B0F87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E0A13081B2452E4005B0F87 /* BfsAlgorithm */,
+				9E0A13081B2452E4005B0F87 /* Algorithms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,19 +65,35 @@
 		9E0A130A1B2452E4005B0F87 /* BfsAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				9E0A130B1B2452E4005B0F87 /* main.cpp */,
-				9E0A13121B245334005B0F87 /* Graph.h */,
-				9E0A13131B245356005B0F87 /* Graph.cpp */,
+				9E0A13121B245334005B0F87 /* BfsAlgorithm.h */,
+				9E0A13131B245356005B0F87 /* BfsAlgorithm.cpp */,
 			);
 			path = BfsAlgorithm;
+			sourceTree = "<group>";
+		};
+		9E0A132E1B2566C9005B0F87 /* DfsAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A132F1B2566F7005B0F87 /* DfsAlgorithm.cpp */,
+				9E0A13301B2566F7005B0F87 /* DfsAlgorithm.h */,
+			);
+			name = DfsAlgorithm;
+			sourceTree = "<group>";
+		};
+		9E0A13321B25683A005B0F87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A130B1B2452E4005B0F87 /* main.cpp */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E0A13071B2452E4005B0F87 /* BfsAlgorithm */ = {
+		9E0A13071B2452E4005B0F87 /* Algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E0A130F1B2452E4005B0F87 /* Build configuration list for PBXNativeTarget "BfsAlgorithm" */;
+			buildConfigurationList = 9E0A130F1B2452E4005B0F87 /* Build configuration list for PBXNativeTarget "Algorithms" */;
 			buildPhases = (
 				9E0A13041B2452E4005B0F87 /* Sources */,
 				9E0A13051B2452E4005B0F87 /* Frameworks */,
@@ -82,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = BfsAlgorithm;
+			name = Algorithms;
 			productName = BfsAlgorithm;
-			productReference = 9E0A13081B2452E4005B0F87 /* BfsAlgorithm */;
+			productReference = 9E0A13081B2452E4005B0F87 /* Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E0A13031B2452E4005B0F87 /* Build configuration list for PBXProject "BfsAlgorithm" */;
+			buildConfigurationList = 9E0A13031B2452E4005B0F87 /* Build configuration list for PBXProject "Algorithms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E0A13071B2452E4005B0F87 /* BfsAlgorithm */,
+				9E0A13071B2452E4005B0F87 /* Algorithms */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0A13141B245356005B0F87 /* Graph.cpp in Sources */,
+				9E0A13311B2566F7005B0F87 /* DfsAlgorithm.cpp in Sources */,
+				9E0A13141B245356005B0F87 /* BfsAlgorithm.cpp in Sources */,
 				9E0A130C1B2452E4005B0F87 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,21 +233,21 @@
 		9E0A13101B2452E4005B0F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Debug;
 		};
 		9E0A13111B2452E4005B0F87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E0A13031B2452E4005B0F87 /* Build configuration list for PBXProject "BfsAlgorithm" */ = {
+		9E0A13031B2452E4005B0F87 /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0A130D1B2452E4005B0F87 /* Debug */,
@@ -234,13 +256,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E0A130F1B2452E4005B0F87 /* Build configuration list for PBXNativeTarget "BfsAlgorithm" */ = {
+		9E0A130F1B2452E4005B0F87 /* Build configuration list for PBXNativeTarget "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0A13101B2452E4005B0F87 /* Debug */,
 				9E0A13111B2452E4005B0F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

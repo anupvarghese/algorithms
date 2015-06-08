@@ -16,13 +16,13 @@
 #include<list>
 using namespace std;
 
-class Graph
+class BfsAlgorithm
 {
     int V;
     list<int> *adj;
     
 public:
-    Graph(int V);
+    BfsAlgorithm(int V);
     void AddEdge(int v, int w);
     void BFS(int s);
 };

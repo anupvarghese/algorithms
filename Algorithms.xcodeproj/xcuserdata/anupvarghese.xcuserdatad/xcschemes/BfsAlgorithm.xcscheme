@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9E0A13071B2452E4005B0F87"
-               BuildableName = "BfsAlgorithm"
-               BlueprintName = "BfsAlgorithm"
-               ReferencedContainer = "container:BfsAlgorithm.xcodeproj">
+               BuildableName = "Algorithms"
+               BlueprintName = "Algorithms"
+               ReferencedContainer = "container:Algorithms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E0A13071B2452E4005B0F87"
-            BuildableName = "BfsAlgorithm"
-            BlueprintName = "BfsAlgorithm"
-            ReferencedContainer = "container:BfsAlgorithm.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E0A13071B2452E4005B0F87"
-            BuildableName = "BfsAlgorithm"
-            BlueprintName = "BfsAlgorithm"
-            ReferencedContainer = "container:BfsAlgorithm.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E0A13071B2452E4005B0F87"
-            BuildableName = "BfsAlgorithm"
-            BlueprintName = "BfsAlgorithm"
-            ReferencedContainer = "container:BfsAlgorithm.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
